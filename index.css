@@ -1,0 +1,471 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 50px 140px;
+}
+
+
+/* banner style */
+
+.banner-container {
+    background-color: #161616;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.banner {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: wheat;
+    gap: 60px;
+}
+
+.banner-info {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 111px 0 111px 106px;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.banner-info h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 750;
+}
+
+
+/* banner image style */
+
+.banner-img img {
+    margin-top: 33px;
+    margin-left: 24px;
+    margin-right: 79px;
+    width: 60%;
+    height: 665px;
+}
+
+.banner:hover img {
+    transform: rotate(360deg) scale(.8);
+}
+
+.banner img {
+    transition: transform 2s ease-in 0.2s;
+}
+
+.banner-info a {
+    text-decoration: none;
+    color: white;
+    background-color: #DD0000;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 5px;
+    padding: 10px 16px;
+    font-size: 20px;
+}
+
+.fa-sharp {
+    margin-left: 10px;
+}
+
+
+/* sidebar section */
+
+.match-transfer {
+    padding-top: 30px;
+}
+
+aside {
+    width: 140px;
+    height: 20px;
+}
+
+.side-nav {
+    display: grid;
+    grid-template-columns: 3;
+    text-decoration: none;
+    background-color: #161616;
+    height: 212px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.side-nav a:hover {
+    color: salmon;
+}
+
+.side-nav a {
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#blg {
+    background-color: #DD0000;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* player transfer section */
+
+.match-transfer {
+    display: flex;
+}
+
+.player-transfer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player-card img {
+    width: 100%;
+}
+
+.player-card {
+    box-shadow: 1px 1px 5px 1px wheat;
+    border-radius: 7px;
+    height: 362;
+    width: 240px;
+    margin: 0 20px 20px 20px;
+}
+
+.player-card input {
+    display: block;
+    width: 100px;
+    height: 32px;
+    font-weight: 500px;
+    margin: 20px;
+}
+
+.icon-section {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+
+.icon-section p {
+    display: flex;
+    align-items: flex-end;
+}
+
+.icon-section p span {
+    margin: 10px;
+    font-size: 12px;
+}
+
+.transfer-info {
+    padding: 5%;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+
+/* hidden Button */
+
+.view-button input {
+    color: white;
+    background-color: #DD0000;
+    font-size: 20px;
+    font-weight: 550;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 10%;
+}
+
+.view-button {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer area */
+
+.footer-section {
+    background-color: #161616;
+    color: #FFFFFF;
+    height: 350px;
+}
+
+.goal-area {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-area span {
+    margin: 25px;
+}
+
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* website two */
+
+.match-summary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.schedule-match {
+    margin-left: 20px;
+    box-shadow: 1px 1px 5px 1px wheat;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.schedule-match p {
+    margin-left: 60px;
+}
+
+.germany-france-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    margin: 0px 20px;
+}
+
+.flag img {
+    width: 50px;
+}
+
+.schedule-name {
+    display: flex;
+    margin-left: 20px;
+}
+
+.schedule-name h3 {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* social media */
+
+.social {
+    text-decoration: none;
+    background-color: #161616;
+    padding: 6px 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.fa {
+    padding: 20px;
+    width: 40px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.social h2 {
+    color: white;
+}
+
+
+/* media query start */
+
+
+/* mobile device */
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        width: 100%;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner-info {
+        width: 100%;
+        padding: 50px 0px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+    .match-transfer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .side-navbar {
+        background-color: white;
+        width: 23%;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .side-nav a {
+        box-shadow: 1px 1px 5px 1px gray;
+    }
+    .player-transfer {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .view-button {
+        display: none;
+    }
+    .footer-area {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #161616;
+        height: 344px;
+        color: #FFFFFF
+    }
+    footer hr {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .footer-area span {
+        font-weight: 600;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .goal-area {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+/* tablet-view */
+
+@media only screen and (max-width: 768px)and (max-width:992px) {
+    .match-transfer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .side-navbar {
+        background-color: wheat;
+        width: 23%;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+    .side-nav {
+        display: flex;
+        gap: 20px;
+    }
+    .side-nav a {
+        box-shadow: 1px 1px 5px 1px salmon;
+    }
+    .player-transfer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .view-button {
+        display: block;
+    }
+    .footer-area {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #161616;
+        height: 344px;
+        color: #FFFFFF
+    }
+    footer hr {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .footer-area span {
+        font-weight: 600;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .goal-area {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
